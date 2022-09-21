@@ -10,7 +10,7 @@ router.get("/getAll",(req,res)=>{
     res.send("getAll API")
 })
 //Get by ID Method
-router.get("getOne/:id",(req,res)=>{
+router.get('/getOne/:id', (req, res) => {
     res.send(req.params.id)
 })
 //Update by ID Method

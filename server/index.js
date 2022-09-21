@@ -1,8 +1,12 @@
+//routes
+const routes=require("./routes/routes")
+
 const express=require('express');
 const mongoose=require('mongoose')
 
 const app=express()
 
+app.use("/api",routes)
 app.use(express.json())
 
 //connecting mongo DB

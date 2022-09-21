@@ -1,4 +1,4 @@
-# MEVN
+# MERN
 Hello everyone 
 
 To run the CRUD (Node js-Express js/MongoDB) server just write this on your terminal:

@@ -6,8 +6,8 @@ const mongoose=require('mongoose')
 
 const app=express()
 
-app.use("/api",routes)
 app.use(express.json())
+app.use("/api",routes)
 
 //connecting mongo DB
 require('dotenv').config();
@@ -24,6 +24,6 @@ database.once('connected',()=>{
 })
 
 //listen PORT
-app.listen(4000,()=>{
-    console.log(`Server Started at ${4000}`);
+app.listen(3000,()=>{
+    console.log(`Server Started at ${3000}`);
 })
